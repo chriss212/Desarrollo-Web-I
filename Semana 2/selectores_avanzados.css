@@ -1,0 +1,26 @@
+html {
+    background-color: lightblue;
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+section h2 {
+    color: navy;
+}
+
+section > h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: red;
+}
+
+article h1 + h2 { 
+    text-decoration: underline;
+}
+
+* {
+    color: crimson;
+}
