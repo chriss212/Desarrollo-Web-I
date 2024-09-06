@@ -10,6 +10,7 @@ body {
 
 .main-title:hover, .subtitle:hover {
     color: white;
+    text-decoration: underline;
 }
 
 .intro {
@@ -27,6 +28,9 @@ body {
     margin: 0 auto;
 }
 
+.show-image:hover {
+    opacity: 0.5;
+}
 
 .show-table {
     width: 90%;
@@ -62,7 +66,6 @@ body {
     margin: 20px;
 }
 
-
 .character-image {
     width: 30%;
     max-width: 500px;
@@ -75,15 +78,12 @@ body {
 }
 
 .character-image:hover {
-    opacity: 0.5;
-}
-
-footer {
-    text-align: center;
+    filter: grayscale();
 }
 
 #footer {
     color: white;
     text-decoration: underline;
     margin-top: 20px;
+    text-align: center;
 }
