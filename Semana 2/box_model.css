@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: green;
+    background-image: url(https://img.freepik.com/free-vector/cute-pattern-background-polka-dot-black-white-vector_53876-151294.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1725667200&semt=ais_hybrid);
+    width: 100%;
+    color: crimson;
+    font-weight: bold;
+    padding: 20px, 50px;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+article img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+section article {
+    width: 32.3%;
+    float: left;
+    border: 2px silver solid;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px 0.5%;
+    border-radius: 15px;
+    height: 600px;
+    box-shadow: 10px 15px gray;
+}
+
+article h3 {
+    color: green;
+    text-align: center;
+}
