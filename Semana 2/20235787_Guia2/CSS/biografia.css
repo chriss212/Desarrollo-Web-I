@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 18px;
+    font-family: 'Lora';
+    background-color: #1E0342;
+    color: #E1F7F5;
+}
+
+h1 {
+    font-size: 22px;
+    background-color: #1E0342;
+    text-align: center;
+    padding: 25px;
+}
+
+h1:hover {
+    font-size: 30px;
+    color: #E1F7F5;
+}
+
+nav {
+    width: 100%;
+    background-color: #9AC8CD;
+    display: flex;
+}
+
+nav span {
+    display: flex;
+    flex: 1;
+}
+
+nav span a {
+    color: black;
+    font-size: 20px;
+    flex: 1;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #9AC8CD;
+    border: 1px solid #1E0342;
+}
+
+nav span a:nth-child(odd) {
+    background-color: #9AC8CD;
+}
+
+nav span a:nth-child(even) {
+    background-color: #E1F7F5;
+}
+
+nav span a:hover {
+    background-color: #0E46A3;
+}
+
+.subtitles {
+    padding: 20px;
+    font-size: 18px;
+    color: #E1D7B7;
+    text-align: center;
+    background-color: #0E46A3;
+}
+
+p { 
+    padding: 30px;
+}
+
+.photos:hover, .poster:hover {
+    filter:grayscale();
+}
+
+#nacimiento img[alt="Foto de pequeño"], #nacimiento img[alt="Foto con papás"] {
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    width: auto;
+    height: 250px;
+    padding: 15px;
+}
+
+#nacimiento img[alt="Foto de familia"], #nacimiento img[alt="Foto de Scamp"] {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    width: auto;
+    height: 250px;
+    padding: 15px;
+}
+
+article p:first-letter {
+    font-size: 1.5rem;
+}
+
+#educacion .photos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 350px;
+}
+
+#vidapersonal img[alt="Foto con Mickey - 2015"], #vidapersonal img[alt = "Foto con Mickey - 2023"] {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: auto;
+    height: 250px;
+    padding: 15px;
+}
+
+#vidapersonal img[alt="Poster de Succession"], #vidapersonal img[alt="Poster de The Greatest Showman"] {
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    width: auto;
+    height: 250px;
+    padding: 15px;
+}
+
+#vidapersonal .photos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 250px;
+}
+
+#futuro .photos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 200px;
+}
+
+footer {
+    text-align: center;
+    background-color: #E1F7F5;
+    padding: 15px;
+    color:#1E0342;
+}

@@ -35,7 +35,7 @@ div.wrapper {
 }
 
 section article {
-    background-color: tgba(33, 62, 74, 1);
+    background-color: rgba(33, 62, 74, 1);
     margin-top: 20px;
     padding: 12px;
 }
@@ -59,7 +59,7 @@ nav span a:hover {
     background-color: #B2DFDB;
 }
 
-nav span a:nth-child(4) {
+a[href="https://www.sensacine.com/peliculas/pelicula-175305/reparto/"] {
     background-color: #9E9E9E;
 }
 
@@ -68,6 +68,6 @@ article p:first-letter {
     font-size: 1.5rem;
 }
 
-article p:first-child, p:first-line {
+article:first-child p:first-line {
     text-decoration: underline;
 }
