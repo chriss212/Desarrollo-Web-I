@@ -10,14 +10,14 @@ html {
     color: #E1F7F5;
 }
 
-h1 {
+.title {
     font-size: 22px;
     background-color: #1E0342;
     text-align: center;
     padding: 25px;
 }
 
-h1:hover {
+.title:hover {
     font-size: 30px;
     color: #E1F7F5;
 }
@@ -58,27 +58,29 @@ nav span a:hover {
 
 .subtitles {
     padding: 20px;
-    font-size: 18px;
+    font-size: 20px;
     color: #E1D7B7;
     text-align: center;
     background-color: #0E46A3;
+    border: 1px #9AC8CD dashed;
 }
 
 p { 
-    padding: 30px;
+    padding: 15px 30px;
+    line-height: 30px;
 }
 
 .photos:hover, .poster:hover {
     filter:grayscale();
 }
 
-#nacimiento img[alt="Foto de pequeño"], #nacimiento img[alt="Foto con papás"] {
+#nacimiento img[alt="Foto de pequeño"], #nacimiento img[alt="Foto de Christian"], #nacimiento img[alt="Foto con papás"] {
     float: right;
     margin-right: 20px;
     margin-bottom: 15px;
     width: auto;
     height: 250px;
-    padding: 15px;
+    padding: 30px;
 }
 
 #nacimiento img[alt="Foto de familia"], #nacimiento img[alt="Foto de Scamp"] {
@@ -87,7 +89,7 @@ p {
     margin-bottom: 15px;
     width: auto;
     height: 250px;
-    padding: 15px;
+    padding: 30px;
 }
 
 article p:first-letter {
@@ -100,6 +102,7 @@ article p:first-letter {
     margin-right: auto;
     width: auto;
     height: 350px;
+    padding: 30px;
 }
 
 #vidapersonal img[alt="Foto con Mickey - 2015"], #vidapersonal img[alt = "Foto con Mickey - 2023"] {
@@ -108,16 +111,16 @@ article p:first-letter {
     margin-bottom: 15px;
     width: auto;
     height: 250px;
-    padding: 15px;
+    padding: 30px;
 }
 
 #vidapersonal img[alt="Poster de Succession"], #vidapersonal img[alt="Poster de The Greatest Showman"] {
     float: right;
     margin-right: 20px;
     margin-bottom: 15px;
-    width: auto;
-    height: 250px;
-    padding: 15px;
+    width: 10%;
+    height: auto;
+    padding: 30px;
 }
 
 #vidapersonal .photos {
@@ -126,6 +129,7 @@ article p:first-letter {
     margin-right: auto;
     width: auto;
     height: 250px;
+    padding: 30px;
 }
 
 #futuro .photos {
@@ -134,6 +138,7 @@ article p:first-letter {
     margin-right: auto;
     width: auto;
     height: 200px;
+    padding: 30px;
 }
 
 footer {
@@ -141,4 +146,5 @@ footer {
     background-color: #E1F7F5;
     padding: 15px;
     color:#1E0342;
+    text-transform: uppercase;
 }
