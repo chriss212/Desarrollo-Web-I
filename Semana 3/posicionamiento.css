@@ -8,30 +8,26 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.contenedor {
+.container {
     width: 90%;
     margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-
+    position: relative;
+    margin-top: 5rem;
+    height: 200rem;
 }
 
 .caja {
     width: 32.3%;
     height: 200px;
-    border: 2px green solid;
-    margin: 0.5% 20px;
+    border: 2px solid black;
+    float: left;
+    margin: 5px 0.5%;
 }
 
 .caja:nth-child(2) {
-    position: absolute;
+    position: relative;
     top: 35px;
     left: 20px;
-}
-
-.caja:nth-child(5) {
-    position: absolute;
-    top: 0px;
 }
 
 header {
@@ -39,11 +35,25 @@ header {
     height: 70px;
     background-color: green;
     color: white;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 10;
     padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 25px 10px;
+}
+
+header nav a:hover{
+    background-color: black;
 }
 
 footer {
@@ -51,12 +61,20 @@ footer {
     height: 30px;
     background-color: black;
     color: white;
+
     position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
 }
 
 .banner {
+    height: 100px;
     width: 100%;
     background-color: black;
-    height: 100%;
+    display: none;
 }
-
