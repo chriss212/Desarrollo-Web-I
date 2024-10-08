@@ -25,9 +25,12 @@ html {
 }
 
 .caja:nth-child(2) {
-    position: relative;
+    position: static;
     top: 35px;
     left: 20px;
+    border-color: crimson;
+    display: block;
+    visibility: hidden;
 }
 
 header {
