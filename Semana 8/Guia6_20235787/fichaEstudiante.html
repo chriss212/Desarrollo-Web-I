@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de Estudiante</title>
+    <link rel="stylesheet" href="css/fichaEstudiante.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registro Academico</h1>
+        <h2>Ficha de Estudiante</h2>
+        <form id="studentForm" onsubmit="return validarFicha()">
+            <label for="carnet">Carnet</label>
+            <input type="text" id="carnet" name="carnet" required placeholder=" (Ej: AB001)">
+
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Nombres y apellidos">
+
+            <label for="dui">Número de DUI</label>
+            <input type="text" id="dui" name="dui" required placeholder=" (Ej: ########-#)">
+
+            <label for="nit">Número de NIT</label>
+            <input type="text" id="nit" name="nit" required placeholder=" (Ej: ####-######-###-#)">
+
+            <label for="fechaNacimiento">Fecha de Nacimiento</label>
+            <input type="text" id="fechaNacimiento" name="fechaNacimiento" required placeholder="DD/MM/AAAA">
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required placeholder="nombre@dominio.com">
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" required min="0" max="99">
+
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="mensaje"></div>
+    </div>
+    <script src="js/fichaEstudiante.js" defer></script>
+</body>
+</html>
